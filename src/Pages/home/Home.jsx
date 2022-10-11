@@ -13,7 +13,6 @@ export default function Home() {
         </S.BoxPerfil>
         <S.BoxNav>
           <Nav />
-          <S.Typing>Olá!, eu me chamo Luan</S.Typing>
         </S.BoxNav>
       </S.Section>
     </>

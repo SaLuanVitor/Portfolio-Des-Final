@@ -6,5 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    ::-webkit-scrollbar{
+      display: none;
+    }
   }
 `

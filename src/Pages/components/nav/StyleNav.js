@@ -15,9 +15,17 @@ export const Ul = styled.ul`
     padding: 1em;
     color: #000021;
     border: solid transparent 3px;
+    color: #333333;
     :hover{
       cursor: pointer;
       border: solid white;
     }
   }
+`
+export const BoxNav = styled.div`
+  border-radius: 2em;
+  background-color: #e8c39e;
+  width: 600px;
+  height: 100vh;
+  border: solid whitesmoke;
 `
