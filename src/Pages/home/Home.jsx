@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../components/nav/Nav";
 import Perfil from "../components/perfil/Perfil.jsx"
+import Obejtivos from "../Obejetivos/Obejetivos";
 import * as S from "./StyleHome.js"
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
           <Perfil />
         </S.BoxPerfil>
         <S.BoxNav>
-          <Nav />
+          <Nav title="Navegação" />
         </S.BoxNav>
+        <Obejtivos />
       </S.Section>
     </>
   )

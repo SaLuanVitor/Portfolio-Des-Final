@@ -18,10 +18,10 @@ export default function Home() {
     <S.BoxPerfil>
       <S.Figure>
         <S.Img src={Lula} alt="Sou eu" />
+        <Typing />
       </S.Figure>
       <S.Info>
-        <Typing />
-        <h3>Desenvolvedor Front-End</h3>
+        <h2>Desenvolvedor Front-End</h2>
         <S.SocialFigure>
           <a href="https://www.linkedin.com/in/luan-vitor-93a50a230/" target="_blank" rel="noreferrer">
             <img src={Linkedin} alt="Icone Linkedin" />

@@ -4,49 +4,51 @@ export const BoxPerfil = styled.section`
   font-family: cursive;
   height: 100%;
   border-radius: 2em;
-  border: solid white;
-  padding: 2em;
+  border: solid black;
 `
 export const Figure = styled.figure`
-  width: 60%;
-  height: 30%;
-  border-radius: 50%;
+  width: 100%;
+  height: 10em;
+  border-bottom: solid black;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: -1em;
 `
 export const Img = styled.img`
-  position: relative;
-  bottom: 4em;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  width: 40%;
+  height: 60%;
+  border-radius: 60%;
 `
 export const Info = styled.section`
   display: flex;
+  background-color: #E8C39C;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
   align-items: center;
+  padding: 1em;
   flex-direction: column;
   color: #333333;
-  h3{
-    border: solid white;
+  h2{
+    border: solid black;
+    border-radius: 3em;
     padding: 1em;
-    width: 70%;
+    box-shadow: #333333 1px 1px 5px 1px;
     font-size: 0.8rem;
     text-align: center;
   }
 `
 
 export const SocialFigure = styled.figure`
-  width: 100%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
-  margin: 1em auto;
+  margin: 0 auto;
+  margin-top: 2em;
   img{
     width: 30PX;
-    margin-left: 0.5em;
     height: 2em;
     cursor: pointer;
   }
@@ -54,24 +56,36 @@ export const SocialFigure = styled.figure`
 export const BoxContato = styled.div`
   width: 100%;
   margin-top: 2em;
+  border: solid black;
+  border-radius: 2em;
+  padding: 1em;
+  background-color: #B6936F;
 `
 
 export const Contato = styled.div`
-    border-bottom: solid white;
+    border-bottom: solid black 1px;
     margin-bottom: 1em;
     display: flex;
   a{
     display: flex;
     text-decoration: none;
     color: #333333;
+    margin-bottom: 0.5em;
   }
   img{
     width: 30px;
     margin-right: 1em;
   }
+  :last-child{
+    border: none;
+  }
 `
 export const BoxProject = styled.div`
-  width: 100%;
+  width: 50%;
+  border: solid black;
+  border-radius: 2em;
+  background-color: #B6936F;
+  padding: 1em;
   height: 10%;
   margin: 0 auto;
   display: flex;
