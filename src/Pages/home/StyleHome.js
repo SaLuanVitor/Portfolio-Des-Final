@@ -19,7 +19,6 @@ export const BoxPerfil = styled.div`
   background-color: #B6936F;
   padding: 1em;
   margin-bottom: 2em;
-  margin-right: 2em;
   border: solid black;
 `
 
@@ -29,7 +28,7 @@ export const BoxNav = styled.div`
   padding: 1em;
   border: solid black;
   width: 600px;
-  height: 100vh;
+  height: 100%;
 `
 
 

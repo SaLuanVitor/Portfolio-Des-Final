@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../Pages/home/Home.jsx"
+import Sobre from "../Pages/Sobre/Sobre.jsx"
 import Error from "../Pages/error/Error.jsx"
 
 export default function Routers() {
@@ -7,6 +8,8 @@ export default function Routers() {
     <>
       <Router>
         <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Sobre" element={<Sobre />} />
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
         </Routes>

@@ -1,13 +1,24 @@
 import React from "react";
+import * as S from "./StyleObejetivo.js"
 
-export default function Obejtivos() {
+export function Obejtivo() {
   return (
-    <>
-      <p>Ingressar no mercado para obter experiências reais,
-        conhecer novas culturas, resolver
-        problemas e aprender a lidar da melhor forma com eles
-        com o auxílio de um time, evoluir
-        para se tornar uma referência na área de tecnologia.</p>
-    </>
+    <S.BoxObjetivo>
+      <h3>Obejtivos:</h3>
+      <ul>
+        <li>
+          Ingressar no mercado para obter experiências reais
+        </li>
+        <li>
+          Conhecer novas culturas
+        </li>
+        <li>
+          FullStack
+        </li>
+        <li>
+          Virar referência na área de tecnologia.
+        </li>
+      </ul>
+    </S.BoxObjetivo >
   )
 }

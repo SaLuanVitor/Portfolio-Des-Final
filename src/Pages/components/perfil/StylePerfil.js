@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const BoxPerfil = styled.section`
   font-family: cursive;
+  width: 100%;
   height: 100%;
   border-radius: 2em;
   border: solid black;
@@ -71,6 +72,7 @@ export const Contato = styled.div`
     text-decoration: none;
     color: #333333;
     margin-bottom: 0.5em;
+    flex-wrap: wrap;
   }
   img{
     width: 30px;

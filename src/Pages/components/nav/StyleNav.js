@@ -1,25 +1,26 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 export const Ul = styled.ul`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
   margin: 0 auto;
-  li{
+  
+`
+export const LinkLi = styled(Link)`
     transition: 0.5s all;
+    text-decoration: none;
     font-family: cursive;
+    width: 33.33%;
     padding: 0.5em;
     background-color: white;
     color: #000021;
     border: solid black 1px;
-    width: 33.33%;
     color: #333333;
     :hover{
       cursor: pointer;
       text-decoration: underline 2px;
     }
-  }
 `
 export const BoxNav = styled.div`
   border-top-left-radius: 2em;

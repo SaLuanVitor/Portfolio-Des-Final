@@ -12,7 +12,7 @@ import styledComponent from "../../../Assets/styledComponent.png"
 import { Typing } from "../typing/Typing";
 import * as S from "./StylePerfil.js"
 
-export default function Home() {
+export function Perfil() {
 
   return (
     <S.BoxPerfil>
