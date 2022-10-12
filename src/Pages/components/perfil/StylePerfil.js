@@ -52,6 +52,9 @@ export const SocialFigure = styled.figure`
     width: 30PX;
     height: 2em;
     cursor: pointer;
+    :hover{
+      transform: scale(1.1);
+    }
   }
 `
 export const BoxContato = styled.div`
@@ -81,6 +84,14 @@ export const Contato = styled.div`
   :last-child{
     border: none;
   }
+  :hover{
+    a{
+      text-decoration: underline 2px;
+    }
+    img{
+      transform: scale(1.1);
+      }
+    }
 `
 export const BoxProject = styled.div`
   width: 50%;
