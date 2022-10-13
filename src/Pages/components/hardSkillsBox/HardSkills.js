@@ -11,33 +11,41 @@ export const HardSkill = [
   {
     img: html,
     title: "HTML5",
+    alt: "Icone Html5"
   },
   {
     img: css,
     title: "CSS3",
+    alt: "Icone Css3"
   },
   {
     img: javaScript,
     title: "JAVASCRIPT",
+    alt: "Icone JavaScript"
   },
   {
     img: react,
     title: "REACT.JS",
+    alt: "Icone ReactJs"
   },
   {
     img: styledComponent,
-    title: "STYLEDCOMPONENT",
+    title: "STYLEDCOMPONENTS",
+    alt: "Icone Styled Components"
   },
   {
     img: git,
     title: "GIT",
+    alt: "Icone GIT"
   },
   {
     img: sql,
     title: "SQL SERVER",
+    alt: "Icone Sql Server"
   },
   {
     img: arduino,
     title: "ARDUINO",
+    alt: "Icone Arduino"
   },
 ]

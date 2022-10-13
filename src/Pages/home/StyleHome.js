@@ -20,6 +20,9 @@ export const BoxPerfil = styled.div`
   padding: 1em;
   margin-bottom: 2em;
   border: solid black;
+  @media only screen and (max-width:350px){
+    width: 290px;
+  }
 `
 
 export const BoxNav = styled.div`

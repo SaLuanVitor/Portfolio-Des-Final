@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/nav/Nav.jsx";
+import { Nav } from "../components/nav/Nav.jsx";
 import { HardSkill } from "../components/hardSkillsBox/HardSkills.js";
 import * as S from "./StyleSobre.js"
 
@@ -8,7 +8,7 @@ export default function Sobre() {
     <>
       <S.Section>
         <S.Content>
-          <Nav title="Sobre" pag="Home" link="/" />
+          <Nav title="Sobre" pag="Home" link="/" pag02="Projetos" link02="/Projetos" />
           <S.BoxSobre>
             <p>
               Oi, me chamo Luan, amante de tecnologia, jogos e culinária! Atualmente tenho como objetivo iniciar minha carreira em tecnologia a partir do desenvolvimento web, que seria uma ótima oportunidade para entrar no mercado de trabalho e através desse novo desafio me desenvolver profissionalmente.
@@ -31,7 +31,6 @@ export default function Sobre() {
             </S.BoxList>
           </S.BoxSobre>
         </S.Content>
-
         <S.Content>
           <S.BoxHeader>
             <h2>Tecnologias</h2>

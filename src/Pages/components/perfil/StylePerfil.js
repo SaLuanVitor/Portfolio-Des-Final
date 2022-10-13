@@ -76,6 +76,9 @@ export const Contato = styled.div`
     color: #333333;
     margin-bottom: 0.5em;
     flex-wrap: wrap;
+    @media only screen and (max-width:350px){
+      font-size: 0.9rem;
+    }
   }
   img{
     width: 30px;
@@ -92,6 +95,7 @@ export const Contato = styled.div`
       transform: scale(1.1);
       }
     }
+
 `
 export const BoxProject = styled.div`
   width: 50%;
