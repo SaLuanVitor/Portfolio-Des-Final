@@ -12,14 +12,29 @@ export default function Projects() {
           <S.ContentProjeto>
             {Project.map((i) => (
               <S.Tec>
-                <img src={i.img} alt={i.alt} />
-                <p>{i.title}</p>
+                <a
+                  href={i.deploy}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={i.img} alt={i.alt} />
+                </a>
+                <h3>{i.title}</h3>
+                <a
+                  href={i.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Repositório</button>
+                </a>
+                {i.pair && <p>Pairprogamming: <a href={i.pair} target="_blank" rel="noopener noreferrer">Leonardo Nunes</a></p>}
+
                 <S.BoxProject>
                   <p>Desenvolvido em:</p>
                   <figure>
-                    <img src={i.icons[0]} alt="React Icon" title="React Icon" />
-                    <img src={i.icons[1]} alt="javaScript Icon" title="javaScript Icon" />
-                    <img src={i.icons[2]} alt="styledComponent Icon" title="styledComponent Icon" />
+                    <img src={i.icons[0]} alt={i.altIcon} title={i.titleIcon} />
+                    <img src={i.icons[1]} alt={i.altIcon2} title={i.titleIcon2} />
+                    {i.icons[2] && <img src={i.icons[2]} alt={i.altIcon3} title={i.titleIcon3} />}
                   </figure>
                 </S.BoxProject>
               </S.Tec>

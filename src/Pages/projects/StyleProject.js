@@ -57,11 +57,32 @@ export const Tec = styled.div`
   align-items: center;
   justify-content: space-evenly;
   img{
-    width: 46px;
-    height: 42px;
+    width: 16em;
+    height: 16em;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: 1s all;
+    :hover{
+      transform: scale(1.1);
+    }
+  }
+  a{
+    text-decoration: none;
+    color: white;
   }
   p{
     font-size: 0.8rem;
+  }
+  button{
+    padding: 0.5em;
+    cursor: pointer;
+    background-color: #B6936F;
+    border-radius: 1em;
+    transition: 0.6s all;
+    :hover{
+      background-color: #E8C39C;
+      transform: scale(1.09);
+    }
   }
 `
 export const BoxProject = styled.div`
