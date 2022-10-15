@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./StyleProject.js"
 import { Project } from "../components/projectBox/ProjectBox.js";
 import { Nav } from "../components/nav/Nav.jsx";
+import up from "../../Assets/up.png"
 
 export default function Projects() {
   return (
@@ -9,9 +10,10 @@ export default function Projects() {
       <S.Content>
         <Nav title="Projetos" pag="Home" link="/" pag02="Sobre" link02="/Sobre" />
         <S.BoxProjeto>
+          <a href="#home"><S.Up src={up} alt="seta para subir" /></a>
           <S.ContentProjeto>
             {Project.map((i) => (
-              <S.Tec>
+              <S.Tec id="home">
                 <a
                   href={i.deploy}
                   target="_blank"

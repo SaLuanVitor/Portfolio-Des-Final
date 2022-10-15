@@ -37,6 +37,17 @@ export const BoxSobre = styled.div`
   border-top: none;
   color: #333333;
 `
+export const Up = styled.img`
+  display: none;
+  @media only screen and (max-width:491px){
+    display: flex;
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    width: 3em;
+    height: 3em;
+  }
+`
 export const SkillTitle = styled.p`
   margin-top: 2em;
   margin-bottom: 1em;

@@ -44,6 +44,18 @@ export const ContentProjeto = styled.section`
   justify-content: space-around;
   width: 100%;
 `
+
+export const Up = styled.img`
+  display: none;
+  @media only screen and (max-width:1035px){
+    display: flex;
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    width: 3em;
+    height: 3em;
+  }
+`
 export const Tec = styled.div`
   border: solid black;
   margin-bottom: 1em;

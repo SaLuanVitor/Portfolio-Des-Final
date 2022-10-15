@@ -2,12 +2,13 @@ import React from "react";
 import { Nav } from "../components/nav/Nav.jsx";
 import { HardSkill } from "../components/hardSkillsBox/HardSkills.js";
 import * as S from "./StyleSobre.js"
+import up from "../../Assets/up.png"
 
 export default function Sobre() {
   return (
     <>
       <S.Section>
-        <S.Content>
+        <S.Content id="home">
           <Nav title="Sobre" pag="Home" link="/" pag02="Projetos" link02="/Projetos" />
           <S.BoxSobre>
             <p>
@@ -36,6 +37,7 @@ export default function Sobre() {
             <h2>Tecnologias</h2>
           </S.BoxHeader>
           <S.BoxTec>
+            <a href="#home"><S.Up src={up} alt="seta para subir" /></a>
             <S.SkillTitle>Algumas de minhas hards skills são:</S.SkillTitle>
             <S.BoxHardSkill>
               {HardSkill.map((i) => (
