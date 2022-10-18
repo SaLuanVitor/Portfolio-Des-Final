@@ -5,7 +5,7 @@ export const TypingBox = styled.div`
 `
 
 export const TypingName = styled.p`
-  width: 100%;
+  width: 8.2em;
   margin: 1em auto;
   animation: typing 2s steps(13), blink 0.5s linear infinite alternate;
   overflow: hidden;

@@ -60,6 +60,7 @@ export const Tec = styled.div`
   border: solid black;
   margin-bottom: 1em;
   border-radius: 2em;
+  padding-bottom: 2em;
   width: 30em;
   height: 30em;
   box-shadow: #333333 1px 1px 5px 1px;
@@ -68,16 +69,7 @@ export const Tec = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  img{
-    width: 16em;
-    height: 16em;
-    border-radius: 2em;
-    cursor: pointer;
-    transition: 1s all;
-    :hover{
-      transform: scale(1.1);
-    }
-  }
+
   a{
     text-decoration: none;
     color: white;
@@ -93,8 +85,22 @@ export const Tec = styled.div`
     transition: 0.6s all;
     :hover{
       background-color: #E8C39C;
-      transform: scale(1.09);
     }
+  }
+`
+export const ImgProj = styled.img`
+    width: 29.6em;
+    height: 18em;
+    border-top-left-radius: 1.7em;
+    border-top-right-radius: 1.7em;
+    border-bottom: solid black;
+    cursor: pointer;
+    transition: 1s all;
+    object-fit: cover;
+    @media only screen and (max-width: 530px){
+    width: 20em;
+    margin-top: 0.5em;
+    border: solid black;
   }
 `
 export const BoxProject = styled.div`
@@ -104,11 +110,11 @@ export const BoxProject = styled.div`
   background-color: #B6936F;
   padding: 1em;
   height: 6em;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3em;
+  position: relative;
+  top: 1em;
   img{
     margin-top: 0.5em;
     margin-left: 0.5em;

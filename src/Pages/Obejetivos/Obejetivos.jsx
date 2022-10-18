@@ -16,7 +16,7 @@ export function Obejtivo() {
           FullStack
         </li>
         <li>
-          Virar referência na área de tecnologia.
+          Ser referência na área de tecnologia.
         </li>
       </ul>
     </S.BoxObjetivo >

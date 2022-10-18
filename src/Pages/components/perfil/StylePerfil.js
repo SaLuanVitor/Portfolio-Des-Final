@@ -22,6 +22,7 @@ export const Img = styled.img`
   height: 60%;
   border-radius: 60%;
 `
+
 export const Info = styled.section`
   display: flex;
   background-color: #E8C39C;

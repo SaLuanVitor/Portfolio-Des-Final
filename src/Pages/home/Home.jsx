@@ -13,7 +13,7 @@ export default function Home() {
           <Perfil />
         </S.BoxPerfil>
         <S.BoxNav>
-          <Nav title="Navegação" pag="Sobre" link="/Sobre" pag02="Projetos" link02="/Projetos" />
+          <Nav title="Saiba Mais" pag="Sobre" link="/Sobre" pag02="Projetos" link02="/Projetos" />
           <Obejtivo />
         </S.BoxNav>
       </S.Section>

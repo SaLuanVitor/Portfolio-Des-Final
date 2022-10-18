@@ -19,7 +19,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={i.img} alt={i.alt} />
+                  <S.ImgProj src={i.img} alt={i.alt} />
                 </a>
                 <h3>{i.title}</h3>
                 <a
