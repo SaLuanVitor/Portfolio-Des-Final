@@ -9,7 +9,7 @@ export const BoxPerfil = styled.section`
 `
 export const Figure = styled.figure`
   width: 100%;
-  height: 10em;
+  height: 20em;
   border-bottom: solid black;
   margin: 0 auto;
   display: flex;
@@ -18,9 +18,11 @@ export const Figure = styled.figure`
   align-items: center;
 `
 export const Img = styled.img`
-  width: 40%;
-  height: 60%;
-  border-radius: 60%;
+  width: 45%;
+  height: 70%;
+  border: solid black;
+  border-radius: 30%;
+  object-fit: cover;
 `
 
 export const Info = styled.section`

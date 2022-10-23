@@ -1,5 +1,5 @@
 import React from "react";
-import Lula from "../../../Assets/lula-vampira.jpg"
+import DevLuan from "../../../Assets/LuanVitorFoto.jpeg"
 import Whats from "../../../Assets/whatsapp.png"
 import Email from "../../../Assets/email.png"
 import Localiza from "../../../Assets/localiza.png"
@@ -17,7 +17,7 @@ export function Perfil() {
   return (
     <S.BoxPerfil>
       <S.Figure>
-        <S.Img src={Lula} alt="Sou eu" />
+        <S.Img src={DevLuan} alt="Dev Luan Vitor D' Sá" />
         <Typing />
       </S.Figure>
       <S.Info>
